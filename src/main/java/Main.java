@@ -5,7 +5,7 @@ public class Main {
     long amount = 100060;
     boolean registered = true;
 
-    service.calculate(amount, registered);
+    long bonus = service.calculate(amount, registered);
 
   }
 }
